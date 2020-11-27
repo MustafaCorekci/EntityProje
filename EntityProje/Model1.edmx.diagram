@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9b2551bf664b4b07a51c8986cd93402c" Name="Diagram1">
+        <EntityTypeShape EntityType="dbEntityUrunModel.tblKategori" Width="1.5" PointX="1" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbEntityUrunModel.tblMusteri" Width="1.5" PointX="3.125" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbEntityUrunModel.tblSati" Width="1.5" PointX="5.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbEntityUrunModel.tblUrun" Width="1.5" PointX="3.125" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="dbEntityUrunModel.FK_tblUrun_tblKategori" ManuallyRouted="false" />
+        <AssociationConnector Association="dbEntityUrunModel.FK_tblSatis_tblMusteri" ManuallyRouted="false" />
+        <AssociationConnector Association="dbEntityUrunModel.FK_tblSatis_tblUrun" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="dbEntityUrunModel.tblAdmin" Width="1.5" PointX="7.875" PointY="1.125" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
